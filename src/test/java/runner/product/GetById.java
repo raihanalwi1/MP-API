@@ -7,7 +7,7 @@ public class GetById {
     private String url, id;
 
     public void setUrlGetByIdProduct(){
-        url = "https://alta-shop.herokuapp.com/api/products/13";
+        url = "https://alta-shop.herokuapp.com/api/products/100";
     }
     public void requestById(){
         given().when().get(url);
